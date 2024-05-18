@@ -36,7 +36,7 @@ class Home extends StatelessWidget {
                       for (ToDo todoo in todoslist)
                         ToDoItem(
                           todo: todoo,
-                        ), // first todo camed from todo.dart file
+                        ), // first todo camed from todo.dart file..
                     ],
                   ),
                 )
@@ -83,7 +83,7 @@ class Home extends StatelessWidget {
                   child: ElevatedButton(
                     child: Text(
                       '+',
-                      style: TextStyle(fontSize: 40),
+                      style: TextStyle(fontSize: 20, color: Colors.black),
                     ),
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
